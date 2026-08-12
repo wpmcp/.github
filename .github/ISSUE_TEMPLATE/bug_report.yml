@@ -1,0 +1,92 @@
+name: Bug report
+description: Something behaves differently from what is documented
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report a security vulnerability here. Open a private security advisory instead: https://github.com/wpmcp/wpmcp/security/advisories/new
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The ability or admin screen involved, the arguments used, and the exact sequence.
+      placeholder: |
+        1. Call the ability `wpmcp/...` with these arguments
+        2. Open the History screen
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output
+      description: PHP errors, the MCP client's error, or the relevant audit log rows. Pasted here it is formatted automatically, no backticks needed.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      placeholder: "0.8.0"
+    validations:
+      required: true
+
+  - type: input
+    id: wp-version
+    attributes:
+      label: WordPress version
+      placeholder: "6.9"
+    validations:
+      required: true
+
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      placeholder: "8.3"
+    validations:
+      required: true
+
+  - type: input
+    id: client
+    attributes:
+      label: MCP client
+      description: Which client, and which auth method (OAuth 2.1 or application password).
+      placeholder: "Claude Code, application password"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: snapshot
+    attributes:
+      label: Did a snapshot get taken for the operation
+      options:
+        - "Yes, and restore worked"
+        - "Yes, but restore did not recover the change"
+        - "No snapshot was recorded"
+        - "Not applicable, this was a read"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Relevant plugins and theme
+      description: Page builder, SEO plugin, forms plugin, and anything else involved in the failing operation.
+    validations:
+      required: false

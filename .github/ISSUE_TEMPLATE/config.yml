@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/wpmcp/wpmcp/security/advisories/new
+    about: Report privately through a GitHub security advisory. Never in a public issue.
+  - name: Documentation
+    url: https://wpmcp-pro.com/docs.html
+    about: Setup, connecting an MCP client, the safety model, and the ability reference.
+  - name: Guides and integrations
+    url: https://wpmcp-pro.com/guides.html
+    about: Per-plugin how-tos and what each integration does and does not cover.

@@ -1,0 +1,69 @@
+name: Feature request
+description: Propose a new ability, integration, or capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, check whether the generic tools already cover this. Block suites and Elementor addon packs are usually reachable through the existing Gutenberg and Elementor widget tools without a dedicated adapter.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: The task you want an agent to complete, and where it currently stops.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of request
+      options:
+        - New ability on an existing integration
+        - Support for a plugin or builder that is not covered yet
+        - Safety, governance, or audit behaviour
+        - Admin screens
+        - Auth or transport
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Plugin or builder involved
+      description: Name and version, if the request is about a specific integration.
+      placeholder: "Bricks 2.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What the ability should do
+      description: Inputs, outputs, and what a successful call should change on the site.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mutating
+    attributes:
+      label: Does this write to the site
+      description: Writes must go through the safety layer, so they need data that can be snapshotted and restored. Requests that touch custom tables with no restore path are usually deferred rather than faked.
+      options:
+        - "Read only"
+        - "Writes to posts, meta, options, or terms"
+        - "Writes to a custom database table"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you tried instead
+      description: Existing abilities, the REST passthrough, or a manual workaround.
+    validations:
+      required: false
