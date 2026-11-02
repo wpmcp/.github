@@ -14,9 +14,16 @@ WP MCP turns a WordPress site into an MCP server, built on the official WordPres
 
 Snapshots are fine-grained, per-operation undo. They are not a replacement for a full-site backup plugin.
 
+## Latest release: 0.8.180
+
+Released 2026-11-01. [Release notes](https://github.com/wpmcp/wpmcp/releases/tag/v0.8.180), [all releases](https://github.com/wpmcp/wpmcp/releases), [changelog](https://wpmcp-pro.com/changelog.html).
+
+- **0.8.180.** Free installs see a dismissible WP MCP Pro notice on the Dashboard, the Plugins screen and WP MCP's own screens, with a launch coupon and a link to the pricing page. Dismissing hides it for 30 days; the third dismissal hides it for good. It never appears while a Pro licence is active. The `wpmcp_pro_banner_offer` and `wpmcp_pro_banner_screens` filters change the coupon, the discount, the link and the screens.
+- **0.8.179.** Pro snapshot history is unlimited while a Pro licence is active. If a licence ends, the history is held at its current depth, so a lapse never deletes undo points. The free default stays at 20 snapshots. Pro is now sold as annual or lifetime plans, see [pricing](https://wpmcp-pro.com/pricing.html).
+
 ## What agents can do
 
-200+ abilities, grouped by what they touch:
+407 abilities as of 0.8.180 (274 free, 133 Pro), grouped by what they touch:
 
 | Area | Coverage |
 |---|---|
@@ -47,6 +54,7 @@ Integration pages state plainly what each one does not cover. Read-only integrat
 - Guides and integrations: [guides](https://wpmcp-pro.com/guides.html), [integrations](https://wpmcp-pro.com/integrations.html)
 - Install the free build: [wpmcp.zip from the latest release](https://github.com/wpmcp/wpmcp/releases/latest/download/wpmcp.zip), then follow the connection wizard in the WP MCP admin menu
 - Report a bug or request a feature: [wpmcp/wpmcp issues](https://github.com/wpmcp/wpmcp/issues)
-- Paid tier: [pricing](https://wpmcp-pro.com/pricing.html). Pro adds unlimited snapshot history, deep Elementor editing, the widget and block builders, and cloud sync. It does not add safety. The safety core is free.
+- Changelog: [wpmcp-pro.com/changelog.html](https://wpmcp-pro.com/changelog.html) and [GitHub releases](https://github.com/wpmcp/wpmcp/releases)
+- Paid tier: [pricing](https://wpmcp-pro.com/pricing.html), annual from $26.99/yr or lifetime, 14-day money-back. Pro adds unlimited snapshot history, deep Elementor editing, the widget and block builders, and cloud sync. It does not add safety. The safety core is free.
 
 Built on the [WordPress Abilities API](https://developer.wordpress.org/apis/abilities-api/) and the [Model Context Protocol](https://modelcontextprotocol.io/).
