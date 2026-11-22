@@ -1,5 +1,10 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wpmcp/.github/main/profile/assets/wpmcp-logo-horizontal-dark-bg.svg">
+  <img src="https://raw.githubusercontent.com/wpmcp/.github/main/profile/assets/wpmcp-logo-horizontal-light-bg.svg" alt="WPMCP" width="420">
+</picture>
+
 # WPMCP: WordPress MCP with undo
 
 **Connect Claude, ChatGPT or Cursor to your WordPress site. Let the AI do real work. Undo anything it does.**
