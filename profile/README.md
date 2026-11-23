@@ -17,7 +17,7 @@ Before each supported write it saves a snapshot, so one change or a whole AI ses
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](https://github.com/wpmcp/wordpress-mcp/blob/main/LICENSE)
 [![WordPress 6.9+](https://img.shields.io/badge/WordPress-6.9%2B-21759B.svg)](https://wordpress.org)
 
-### [Download wpmcp.zip](https://github.com/wpmcp/wordpress-mcp/releases/latest/download/wpmcp.zip) · [Website](https://wpmcp-pro.com/?utm_source=github&utm_medium=org-profile) · [Docs](https://wpmcp-pro.com/docs?utm_source=github&utm_medium=org-profile)
+### [Download wpmcp.zip](https://wpmcp-pro.com/download?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=hero) · [Website](https://wpmcp-pro.com/?utm_source=github&utm_medium=org-profile) · [Docs](https://wpmcp-pro.com/docs?utm_source=github&utm_medium=org-profile)
 
 <img src="https://raw.githubusercontent.com/wpmcp/wordpress-mcp/main/assets/readme/undo-demo.gif" width="820" alt="An AI agent changes a WordPress page heading over MCP, then one click on Restore in the WPMCP History screen puts the original back">
 
@@ -25,7 +25,7 @@ Before each supported write it saves a snapshot, so one change or a whole AI ses
 
 ## Start in three steps
 
-1. Download [wpmcp.zip](https://github.com/wpmcp/wordpress-mcp/releases/latest/download/wpmcp.zip).
+1. Download [wpmcp.zip](https://wpmcp-pro.com/download?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=install).
 2. In wp-admin, go to **Plugins > Add Plugin > Upload Plugin**, install it and activate it.
 3. Open **wpmcp > Connection** and connect Claude Desktop, Claude Code, ChatGPT or Cursor.
 
