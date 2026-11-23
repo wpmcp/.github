@@ -7,7 +7,7 @@
 
 # WPMCP: WordPress MCP with undo
 
-**Connect Claude, ChatGPT or Cursor to your WordPress site. Let the AI do real work. Undo anything it does.**
+**Connect Claude, ChatGPT or Cursor to your WordPress site. Let the AI do real work. Undo is free.**
 
 WPMCP is a free, open source WordPress plugin that turns your site into an MCP server.<br>
 Before each supported write it saves a snapshot, so one change or a whole AI session can be rolled back.
@@ -40,7 +40,7 @@ Requires WordPress 6.9+ and PHP 8.1+. Free installs update in one click from **D
 - **Your site, your server.** Self-hosted and GPL. Nothing has to route through a third-party cloud.
 - **Narrow, audited access.** Scoped agent identities, governance rules that can only restrict, and an audit log of every tool call.
 
-The few writes that cannot be undone are [listed in the safety model](https://wpmcp-pro.com/docs/safety-model?utm_source=github&utm_medium=org-profile), and each one says so in its response.
+The few writes that cannot be undone are [listed in the safety model](https://wpmcp-pro.com/docs/safety-model?utm_source=github&utm_medium=referral&utm_content=org_profile), and each one says so in its response.
 
 ## What your AI can work on
 
@@ -53,7 +53,7 @@ The few writes that cannot be undone are [listed in the safety model](https://wp
 | Page builders (Pro) | Elementor deep editing, Bricks, Divi, Beaver Builder, Breakdance, Oxygen, WPBakery, Avada |
 | Fields, forms and more | ACF, Meta Box, Contact Form 7, Polylang, WPML, events, donations, memberships. Gravity Forms, WPForms and Fluent Forms with Pro |
 
-See [all integrations](https://wpmcp-pro.com/integrations?utm_source=github&utm_medium=org-profile). Each integration page states plainly what it does not cover.
+See [all integrations](https://wpmcp-pro.com/integrations?utm_source=github&utm_medium=referral&utm_content=org_profile). Each integration page states plainly what it does not cover.
 
 ## Repositories
 
@@ -65,14 +65,14 @@ See [all integrations](https://wpmcp-pro.com/integrations?utm_source=github&utm_
 
 ## Free and Pro
 
-The plugin is free, safety and undo included. **WPMCP Pro** adds unlimited undo history, deep Elementor editing, the other page builders, the premium forms plugins, the widget and block builders and cloud sync, from $49 a year or $98 lifetime. Every plan has every Pro feature; plans differ only by the number of sites. [See pricing](https://wpmcp-pro.com/pricing?utm_source=github&utm_medium=org-profile).
+The plugin is free, safety and undo included. **WPMCP Pro** adds unlimited undo history, deep Elementor editing, the other page builders, the premium forms plugins, the widget and block builders and cloud sync, from $49 a year or $98 lifetime. Every plan has every Pro feature; plans differ only by the number of sites. Pro comes from the Freemius checkout on the [pricing page](https://wpmcp-pro.com/pricing?utm_source=github&utm_medium=referral&utm_content=org_profile); GitHub releases carry the free plugin only.
 
 GitHub users get 10% off Pro with the code `WPMCPGIT`.
 
 ## Get help
 
 - [Report a bug or request a feature](https://github.com/wpmcp/wordpress-mcp/issues)
-- [Changelog](https://wpmcp-pro.com/changelog?utm_source=github&utm_medium=org-profile) and [GitHub releases](https://github.com/wpmcp/wordpress-mcp/releases)
+- [Changelog](https://wpmcp-pro.com/changelog?utm_source=github&utm_medium=referral&utm_content=org_profile) and [GitHub releases](https://github.com/wpmcp/wordpress-mcp/releases)
 - If WPMCP saved you from a bad AI edit, a star on [wordpress-mcp](https://github.com/wpmcp/wordpress-mcp) helps other people find it.
 
 Built on the [WordPress Abilities API](https://developer.wordpress.org/apis/abilities-api/) and the [Model Context Protocol](https://modelcontextprotocol.io/).
